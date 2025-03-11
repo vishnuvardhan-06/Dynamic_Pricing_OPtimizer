@@ -1,0 +1,5 @@
+[
+    { "product": "Product A", "currentPrice": 100, "recommendedPrice": 110, "demandLevel": "High" },
+    { "product": "Product B", "currentPrice": 50, "recommendedPrice": 45, "demandLevel": "Medium" },
+    { "product": "Product C", "currentPrice": 75, "recommendedPrice": 80, "demandLevel": "Low" }
+  ]
