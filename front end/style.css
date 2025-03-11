@@ -1,0 +1,154 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Header */
+  header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+    margin: 0;
+  }
+  
+  header p {
+    font-size: 1.2rem;
+    color: #7f8c8d;
+  }
+  
+  /* Dashboard Section */
+  #dashboard {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+  }
+  
+  #dashboard h2 {
+    font-size: 1.8rem;
+    color: #2c3e50;
+    margin-bottom: 20px;
+  }
+  
+  #dashboard h2 i {
+    margin-right: 10px;
+    color: #3498db;
+  }
+  
+  .table-container {
+    overflow-x: auto;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #3498db;
+    color: #fff;
+    font-weight: 600;
+  }
+  
+  tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* Settings Section */
+  #settings {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  #settings h2 {
+    font-size: 1.8rem;
+    color: #2c3e50;
+    margin-bottom: 20px;
+  }
+  
+  #settings h2 i {
+    margin-right: 10px;
+    color: #e67e22;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #2c3e50;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  button {
+    width: 100%;
+    padding: 12px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+  button i {
+    margin-right: 10px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    header h1 {
+      font-size: 2rem;
+    }
+  
+    header p {
+      font-size: 1rem;
+    }
+  
+    #dashboard h2, #settings h2 {
+      font-size: 1.5rem;
+    }
+  
+    th, td {
+      padding: 10px;
+    }
+  }
